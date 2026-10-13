@@ -24,7 +24,6 @@ Denwave развивается как голосовой и текстовый �
 - Проверка и улучшение голоса между разными сетями, при нестабильном соединении и после переподключения.
 - Длительные голосовые сессии и частые входы/выходы участников без ухудшения работы канала.
 - Настройка обработки звука: качество речи, шумоподавление, эхоподавление и удобная голосовая активация.
-- Проверка нагрузки с ориентиром до 30 участников в одном голосовом канале. Это цель тестирования, а не уже подтверждённая вместимость.
 - Более понятные сообщения о проблемах подключения и инструкции для владельца сервера.
 
 ### В планах: удобство повседневного общения
@@ -85,7 +84,6 @@ These are development directions, not a release calendar. The immediate focus ta
 - Test and improve voice across different networks, unstable connections and reconnects.
 - Long voice sessions and frequent participant joins/leaves without degrading the channel.
 - Refine speech quality, noise suppression, echo cancellation and voice activation controls.
-- Load testing with a target of up to 30 participants in one voice channel. This is a testing target, not a capacity already verified.
 - Clearer connection diagnostics and setup guidance for server owners.
 
 ### Planned improvements: everyday communication
