@@ -44,6 +44,9 @@
 ### Совместимость
 Клиент и сервер обновляются независимо. Если версии несовместимы, клиент ещё до входа подскажет, что обновить — клиент или сервер.
 
+### Планы развития
+Ближайшие улучшения и долгосрочные направления — в [roadmap](ROADMAP.md#русский). Уже выпущенные изменения — в [Releases](../../releases).
+
 ---
 
 ## English
@@ -80,3 +83,6 @@ A newer version installs over the old one and keeps saved servers and settings. 
 
 ### Compatibility
 Client and server are updated independently. If they are incompatible, the client tells you before sign-in whether the client or the server needs an update.
+
+### Roadmap
+See the [roadmap](ROADMAP.md#english) for upcoming improvements and longer-term directions. Shipped changes are listed in [Releases](../../releases).
