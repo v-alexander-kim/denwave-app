@@ -1,6 +1,11 @@
-# Denwave
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/denwave-lockup-dark.svg">
+    <img src="assets/denwave-lockup-light.svg" alt="Denwave" height="64">
+  </picture>
+</h1>
 
-[Русский](#русский) · [English](#english)
+<p align="center"><a href="#русский">Русский</a> · <a href="#english">English</a></p>
 
 ---
 
