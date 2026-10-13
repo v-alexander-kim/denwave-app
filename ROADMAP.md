@@ -34,6 +34,7 @@ Denwave развивается как голосовой и текстовый �
 - **Каналы:** перемещение участников между каналами, категории и организация списка, отдельные текстовые каналы.
 - **Чат:** реакции, вложения, ветки обсуждений и удобный учёт непрочитанных сообщений.
 - **Уведомления:** свой звук уведомлений и переход к нужному чату по нажатию уведомления.
+- **Языки интерфейса:** локализация клиента, выбор языка в настройках и постепенное добавление новых переводов, включая сообщения об ошибках и подсказки.
 - **Управление сервером:** загружаемые иконки ролей, просмотр журнала действий и дополнительные инструменты модерации.
 - **Обновления:** проверка новых версий и автоматическое обновление клиента с проверкой подлинности пакетов.
 
@@ -94,6 +95,7 @@ Candidates for upcoming work:
 - **Channels:** move participants between channels, categories and list organisation, dedicated text channels.
 - **Chat:** reactions, attachments, discussion threads and better unread message tracking.
 - **Notifications:** a dedicated notification sound and opening the relevant chat from a notification.
+- **Interface languages:** client localisation, language selection in settings and gradually adding translations, including error messages and help text.
 - **Server management:** uploaded role icons, an activity log viewer and more moderation tools.
 - **Updates:** checking for new versions and automatic client updates with package authenticity checks.
 
