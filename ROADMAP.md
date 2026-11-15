@@ -4,7 +4,7 @@
 
 ## Русский
 
-Обновлено: 13 октября 2026 года.
+Обновлено: 15 ноября 2026 года.
 
 Denwave развивается как голосовой и текстовый чат, который можно развернуть на собственном сервере. Мы хотим сохранить простой запуск для небольших команд и постепенно расширять возможности общения и управления сообществом.
 
@@ -12,38 +12,37 @@ Denwave развивается как голосовой и текстовый �
 
 ### Уже доступно
 
-В [релизе r2](https://github.com/v-alexander-kim/denwave-app/releases/tag/r2): сервер **0.1.0**, клиент **0.2.0**.
+В [релизе r30](https://github.com/v-alexander-kim/denwave-app/releases/tag/r30): сервер **0.17.0**, клиент **0.20.2**.
 
-- Голосовые каналы, локальное шумоподавление RNNoise, выбор устройств, громкость участников, push-to-talk и голосовая активация с порогом в dBFS.
-- Общий чат, чаты голосовых каналов и личные сообщения; ответы, редактирование, упоминания и Markdown.
-- Роли с рангами и правами, видимость и пароли каналов, баны и передача владения сервером.
-- Клиент Windows 10/11; сервер Windows/Linux; локальные аккаунты, сохранённые серверы и HTTPS.
+- Голосовые каналы, локальное шумоподавление, выбор устройств, громкость участников, push-to-talk и голосовая активация.
+- Камеры и демонстрация экрана в голосовых каналах.
+- Чат сервера, чаты каналов и личные сообщения: ответы, редактирование, треды, реакции, вложения, упоминания, Markdown и команды.
+- Роли с рангами и правами, иконки ролей, аудит, категории и перемещение участников, видимость и пароли каналов, баны и передача владения сервером.
+- Клиент Windows 10/11 и macOS; сервер Windows/Linux; локальные аккаунты, trusted devices, сохранённые серверы и HTTPS.
+- Обновление клиента из приложения и простой первый запуск сервера: один бинарник, короткий опросник и готовые адреса для клиента.
 
-### Ближайший фокус: надёжная связь
+### Ближайший фокус: надёжная связь и запуск
 
 - Проверка и улучшение голоса между разными сетями, при нестабильном соединении и после переподключения.
-- Длительные голосовые сессии и частые входы/выходы участников без ухудшения работы канала.
-- Настройка обработки звука: качество речи, шумоподавление, эхоподавление и удобная голосовая активация.
-- Более понятные сообщения о проблемах подключения и инструкции для владельца сервера.
+- Длительные голосовые сессии, частые входы/выходы и проверка видео/демонстрации экрана на Windows и macOS.
+- Понятная диагностика подключения и инструкции для владельца сервера.
+- Шлифовка первого запуска и обновлений сервера.
 
-### В планах: удобство повседневного общения
+### В планах
 
 Следующие кандидаты на разработку:
 
-- **Каналы:** перемещение участников между каналами, категории и организация списка, отдельные текстовые каналы.
-- **Чат:** реакции, вложения, ветки обсуждений и удобный учёт непрочитанных сообщений.
-- **Уведомления:** свой звук уведомлений и переход к нужному чату по нажатию уведомления.
-- **Языки интерфейса:** локализация клиента, выбор языка в настройках и постепенное добавление новых переводов, включая сообщения об ошибках и подсказки.
-- **Управление сервером:** загружаемые иконки ролей, просмотр журнала действий и дополнительные инструменты модерации.
-- **Обновления:** проверка новых версий и автоматическое обновление клиента с проверкой подлинности пакетов.
+- **Языки интерфейса:** локализация клиента, выбор языка в настройках и постепенное добавление переводов.
+- **Уведомления:** улучшение поведения уведомлений на macOS и переход к нужному чату.
+- **Управление сервером:** названия рангов, IP-баны, хранение и экспорт аудита, больше инструментов модерации.
+- **Мобильные клиенты** после стабилизации Windows и macOS.
 
 Эти функции ещё не доступны; их порядок будет уточняться. Они не обязаны выйти вместе в одном обновлении.
 
 ### Долгосрочные направления
 
-- **Демонстрация экрана и камеры** в голосовых каналах.
-- **Новые платформы:** проверка и выпуск клиента для macOS; поиск рабочего решения для Linux; мобильные клиенты позднее.
-- **Более крупные серверы:** улучшение производительности, мониторинга, развёртывания и хранения данных при большей нагрузке.
+- **Более крупные серверы:** PostgreSQL/Redis, мониторинг, развёртывание и хранение данных при большей нагрузке.
+- **Новые платформы:** рабочий клиент для Linux; мобильные клиенты позднее.
 - **Сложные сети:** дополнительные способы подключения там, где текущему голосовому соединению мешают ограничения сети.
 
 Для этих направлений сначала нужны технические проверки. Поддержка платформы или функции будет объявлена только после появления проверенного выпуска.
@@ -64,7 +63,7 @@ Denwave развивается как голосовой и текстовый �
 
 ## English
 
-Updated: October 13, 2026.
+Updated: November 15, 2026.
 
 Denwave is growing as a voice and text chat you can host on your own server. We want to keep setup simple for small teams while gradually adding communication and community management features.
 
@@ -72,38 +71,37 @@ These are development directions, not a release calendar. The immediate focus ta
 
 ### Available now
 
-[Release r2](https://github.com/v-alexander-kim/denwave-app/releases/tag/r2) includes server **0.1.0** and client **0.2.0**.
+[Release r30](https://github.com/v-alexander-kim/denwave-app/releases/tag/r30) includes server **0.17.0** and client **0.20.2**.
 
-- Voice channels, local RNNoise suppression, device selection, per-user volume, push-to-talk and voice activation with a dBFS threshold.
-- Server chat, voice-channel chats and direct messages; replies, editing, mentions and Markdown.
-- Roles with ranks and permissions, channel visibility and passwords, bans and ownership transfer.
-- Windows 10/11 client; Windows/Linux server; local accounts, saved servers and HTTPS.
+- Voice channels, local noise suppression, device selection, per-user volume, push-to-talk and voice activation.
+- Cameras and screen sharing in voice channels.
+- Server chat, channel chats and direct messages with replies, editing, threads, reactions, attachments, mentions, Markdown and commands.
+- Roles with ranks and permissions, role icons, audit log, categories and participant moves, channel visibility and passwords, bans and ownership transfer.
+- Windows 10/11 and macOS clients; Windows/Linux server; local accounts, trusted devices, saved servers and HTTPS.
+- In-app client updates and a simple server first run: one binary, a short questionnaire and ready-to-use client addresses.
 
-### Immediate focus: reliable voice
+### Immediate focus: reliable voice and onboarding
 
 - Test and improve voice across different networks, unstable connections and reconnects.
-- Long voice sessions and frequent participant joins/leaves without degrading the channel.
-- Refine speech quality, noise suppression, echo cancellation and voice activation controls.
-- Clearer connection diagnostics and setup guidance for server owners.
+- Long voice sessions, frequent joins/leaves, and video/screen sharing validation on Windows and macOS.
+- Clear connection diagnostics and server-owner guidance.
+- Polish the first server run and update flow.
 
-### Planned improvements: everyday communication
+### Planned improvements
 
 Candidates for upcoming work:
 
-- **Channels:** move participants between channels, categories and list organisation, dedicated text channels.
-- **Chat:** reactions, attachments, discussion threads and better unread message tracking.
-- **Notifications:** a dedicated notification sound and opening the relevant chat from a notification.
-- **Interface languages:** client localisation, language selection in settings and gradually adding translations, including error messages and help text.
-- **Server management:** uploaded role icons, an activity log viewer and more moderation tools.
-- **Updates:** checking for new versions and automatic client updates with package authenticity checks.
+- **Interface languages:** client localisation, language selection in settings and gradual translation coverage.
+- **Notifications:** better macOS notification behaviour and opening the relevant chat.
+- **Server management:** rank names, IP bans, audit retention/export and more moderation tools.
+- **Mobile clients** after Windows and macOS stabilise.
 
 These features are not available yet; their order will be refined. They do not need to ship together in one update.
 
 ### Longer-term directions
 
-- **Screen sharing and cameras** in voice channels.
-- **More platforms:** validate and release a macOS client; investigate a viable Linux solution; mobile clients later.
-- **Larger servers:** better performance, monitoring, deployment and data storage under higher load.
+- **Larger servers:** PostgreSQL/Redis, monitoring, deployment and data storage under higher load.
+- **More platforms:** a viable Linux client; mobile clients later.
 - **Restrictive networks:** additional connection options where network restrictions prevent the current voice connection from working.
 
 These directions need technical validation first. Support for a platform or feature will be announced when a tested release is available.
